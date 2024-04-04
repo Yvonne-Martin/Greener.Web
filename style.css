@@ -1,0 +1,305 @@
+body{
+    margin: 1%;
+}
+nav a{
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: small;
+}
+nav{
+    padding: 1rem;
+    padding-left: 100px;
+    padding-right: 100px; 
+} 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    gap: 3%;
+}
+#div1{
+    display: flex;
+    border: solid ;
+    border-color: rgb(71, 158, 71);
+    background-color: rgb(71, 158, 71);
+    gap :990px;
+    height: 50px;
+    color: white;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrow {
+    border: solid rgb(23, 24, 22);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  #inspo{
+    display: flex;
+  }
+ 
+  #cash{
+    color: rgb(71, 158, 71) ;
+  }
+  #fall{
+    display: flex;
+    gap: 170px;
+  }
+  #img1{
+    height: 50vh;
+    object-fit: cover;
+  }
+  #img{
+    height: 40;
+    object-fit: cover;
+  }
+  #sale{
+    display: flex;
+  }
+  #spring{
+    display: flex;
+    gap: 20%;
+  }
+  #font{
+    font-family:Verdana, sans-serif;
+    margin-left: 37%;
+  }
+  #plants{
+    text-align: center;
+  }
+  #cut{
+    text-decoration:line-through;
+  }
+#plant{
+    display: flex;
+    gap:10%
+}
+#new{
+    display: flex;
+    gap: 12%;
+}
+#img4{
+    height: 590px;
+    width: 500px;
+    object-fit: cover;
+}
+button{
+    background-color:  rgb(71, 158, 71);
+    color: white;
+    border-radius: 10%;
+    background-color:  rgb(71, 158, 71) ;
+}
+#product{
+    text-align: center;
+}
+#tree{
+    display: flex;
+    gap: 20%;
+}
+#p1{
+    text-align: justify;
+}
+#living{
+    text-align: center;
+    background-color: rgb(250, 230, 245);
+    width: 1400px;
+    margin-left: 100px;
+}
+#main{
+    display: flex;
+    gap: 10%;
+    text-align: justify;
+}
+#tree{
+    display: flex;
+    text-align: justify;
+}
+#im{
+    height: 45vh;
+}
+#love{
+    display: flex;
+    gap: 10%;
+}
+#img0{
+    border-radius: 18%;
+}
+#quick{
+    display: flex;
+    gap: 30%;
+}
+#pp{
+    font-size: 400%
+}
+@media screen and (min-width:280px) and (max-width:560px) {
+    #quick{
+        display: grid;
+        gap: 2%;
+        font-size: xx-small;
+    }
+    input{
+        width: 120px;
+        font-size: xx-small;
+    }
+#sub{
+    width: 120px;
+    height: 20px;
+    font-size: xx-small;
+}
+#icon{
+    height: 25px;
+}
+#hh{
+    font-size: 13px;
+}
+#chris{
+    font-size: 15px;
+}
+#range{
+    font-size: 15px;
+    text-align: center;
+}
+#pp{
+    font-size: 100%
+}
+#img0{
+    border-radius: 8%;
+    height: 50px;
+}
+#love{
+    grid-template-columns: auto;
+    gap: 5%;
+}
+#we{
+    font-size: 18px;
+}
+#main{
+    display: grid;
+    gap: 4%;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+#latest{
+    height: 200px;
+    width: 150px;
+}
+#im{
+    height:25vh;
+}
+#tree{
+    display: grid;
+    gap: 4%;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+#cactus{
+    margin-top: 30px;
+}
+#aliquam{
+    height: 200px;
+    width: 150px;
+    text-align: center;
+}
+#living{
+    text-align: center;
+    background-color: rgb(250, 230, 245);
+    width: 200px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+#shop{
+    width: 120px;
+    height: 20px;
+    font-size: xx-small;
+}
+#img4{
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    margin-top:10px ;
+}
+#plant{
+    display: grid;
+    gap:2%;
+    font-size: 15px;
+}
+#new{
+    display: grid;
+    gap: 0%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#plants{
+    font-size: 18px;
+    text-align: center;
+  }
+  #spring{
+    display: grid;
+    gap: 0%;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  #fall{
+    display: grid;
+    gap: 1px;
+    font-size: x-small;
+  }
+  #img1{
+    height: 50vh;
+    height: 200px;
+    width: 260px;
+  }
+  nav a{
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    font-size: 0rem;
+    font-size: xx-small;
+}
+nav{
+    padding: 1rem;
+    padding-left: 1px;
+    padding-right: 1px; 
+    overflow: hidden;
+} 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    font-size:1px;
+    gap: 0%;
+    text-align: center;
+}
+#div1{
+    display: flex;
+    border: solid ;
+    border-color: rgb(71, 158, 71);
+    background-color: rgb(71, 158, 71);
+    gap :10px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrow {
+    border: solid rgb(23, 24, 22);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+  }
+  body{
+    overflow: hidden;
+  }
+}
+
+
